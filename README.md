@@ -6,7 +6,7 @@
 
 ## Abstract
 
-This paper presents an approach for multimodal application performance optimization using the TruEra Machine Learning Ops platform for model evaluation. 5 Vision Models, 5 Audio Models, and 5 Text Models were evaluated based on prompting, performance, and various sequential configurations to produce the best downstream outcomes based on human evaluation. The selected configuration and prompts are available in a demo here.
+This paper presents an approach for multimodal application performance optimization using the TruEra Machine Learning Ops platform for model evaluation. 5 Vision Models, 6 Audio Models, and 7 Text Models were evaluated based on prompting, performance, and various sequential configurations to produce the best downstream outcomes based on human evaluation. The selected configuration and prompts are available in a demo here.
 
 ## Problem Statement
 
