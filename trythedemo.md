@@ -27,4 +27,4 @@ Run with :
 python app.py
 ```
 Use by navidating your browser to :
-```Localhost:3780```
+```localhost:7860```
