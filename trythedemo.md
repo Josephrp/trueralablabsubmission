@@ -19,7 +19,7 @@ cd TruEraMultiMed
 then :
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 Run with :
 
@@ -27,4 +27,4 @@ Run with :
 python app.py
 ```
 Use by navidating your browser to :
-```Localhost:3780```
+```localhost:7860```
