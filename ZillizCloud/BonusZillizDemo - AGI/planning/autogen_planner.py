@@ -1,7 +1,8 @@
 from typing import Optional, Dict, List
 import semantic_kernel, autogen
 import datetime
-from autogen.agentchat.contrib.agent_builder import
+import autogen
+from .agent_builder import AgentBuilder
 
 class AutoGenPlanner:
     """
@@ -43,14 +44,14 @@ class AutoGenPlanner:
             output += f"\n{result.error_in_exec}"
         return output
 
-    def create_builder(self) -> autogen.agentchat.contrib.agent_builder.AgentBuilder:
+    def create_builder(self) -> AgentBuilder:
         """
         Create an instance of AgentBuilder.
         """
         if not self.builder_config_path:
             raise ValueError("Builder config path is required to create AgentBuilder.")
-        return autogen.agentchat.contrib.agent_builder.AgentBuilder(
-            config_path=self.builder_config_path,
+        return AgentBuilder(
+            config_path= '',
             builder_model='gpt-4-1106-preview',
             agent_model='gpt-4-1106-preview'
         )

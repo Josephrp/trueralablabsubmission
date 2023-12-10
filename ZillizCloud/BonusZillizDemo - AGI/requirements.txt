@@ -2,6 +2,7 @@ beautifulsoup4~=4.12
 typing-extensions
 pydantic
 gradio
+openai
 azure-common
 azure-core
 azure-search-documents
@@ -21,3 +22,4 @@ microsoft-bing-customwebsearch
 msrest
 msrestazure
 pymilvus
+bs4
